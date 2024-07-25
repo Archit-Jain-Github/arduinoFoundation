@@ -1,4 +1,3 @@
-
 # Arduino: Foundations
 
 ## Arduino UNO Diagram
