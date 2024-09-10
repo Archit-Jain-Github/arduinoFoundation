@@ -234,39 +234,24 @@ Remember to have a matching baud rate in the Arduino code and the Serial Monitor
 ## Using Serial Monitor with Blink LED
 
 ```C
+int LED = 13; 
+int counter = 0; 
 
-int LED =13;
-
-int counter =0;
-
-
-voidsetup() {
-
-pinMode(LED, OUTPUT);
-
-    Serial.begin(9600);
-
+void setup() { 
+  pinMode(LED, OUTPUT);  
+  Serial.begin(9600); 
 }
 
-
-voidloop() {
-
-    counter = counter +1;
-
-    Serial.print("Blink Number # ");
-
-    Serial.println(counter);
-
-digitalWrite(LED, HIGH);
-
-delay(1000);
-
-digitalWrite(LED, LOW);
-
-delay(1000);
-
+void loop() { 
+  counter = counter + 1; 
+  Serial.print("Blink Number # ");
+  Serial.println(counter); 
+  
+  digitalWrite(LED, HIGH);  
+  delay(1000);              
+  digitalWrite(LED, LOW);   
+  delay(1000);              
 }
-
 ```
 
 ## LED (Light Emitting Diode)
