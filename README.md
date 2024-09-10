@@ -297,16 +297,6 @@ Used in a circuit to ensure that a maximum current is not exceeded.
 - Current can only flow through this circuit when the button is pressed, connecting the circuit.
 - Active-low and active-high refer to the state of a signal or the behavior of a component with respect to its logical levels.
 
-### Active-Low Push Button
-
-- Pressed when the signal is at a logic low level (typically 0 volts).
-- Signal is at a logic high level when the button is not pressed.
-
-### Active-High Push Button
-
-- Pressed when the signal is at a logic high level (typically equal to the power supply voltage).
-- Signal is at a logic low level when the button is not pressed.
-
 ---
 
 **To go deeper into Arduino,
