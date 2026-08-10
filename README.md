@@ -1,3 +1,5 @@
+
+
 # Arduino: Foundations
 
 Welcome to the foundational guide on Arduino. This guide will walk you through the core components and principles of Arduino, giving you both theoretical knowledge and hands-on experience with real-world applications.
@@ -158,14 +160,14 @@ These functions are essential when working on Arduino.
 int LED = 13;
 
 
-voidsetup () {
+void setup() {
 
 pinMode(LED, OUTPUT);
 
 }
 
 
-voidloop () {
+void loop() {
 
 digitalWrite(LED, HIGH);
 
